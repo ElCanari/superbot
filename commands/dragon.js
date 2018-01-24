@@ -1,3 +1,4 @@
 exports.run = (client, message, args) => {
     message.channel.send("Dragon ? :dragon: <<<<<< all").catch(console.error);
+    message.react(":PandaDevil:385523844208656394");
 }
