@@ -2,7 +2,7 @@
   let member = message.mentions.members.first();
   let role = args.slice(1).join(" ");
    
-   if (message.member.hasPermission("MANAGE_NICKNAME"))
+   if (message.member.hasPermission("MANAGE_NICKNAMES"))
    {
 	message.guild.members.get(member.user.id).setNickname(role);
 	message.channel.send(member + `a été renommé pour ` + role)
