@@ -1,3 +1,5 @@
+
 exports.run = (client, message, args) => {
-    message.channel.send(guild.members).catch(console.error);
+const mlist = message.guild.members.map(g => g.user.username)
+    message.channel.send(mlist).catch(console.error);
 }
