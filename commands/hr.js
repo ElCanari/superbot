@@ -19,7 +19,7 @@ if(temp == "60")
 function Timer() 
 {
  temp--;
- setTimeout(timer,1000)   
+ setTimeout(Timer, 1000)   
     }
     
     
